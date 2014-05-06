@@ -1,0 +1,2 @@
+developer-studio-codenvy-extensions
+===================================
