@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.wso2.developerstudio.codenvy</groupId>
-    <artifactId>parent</artifactId>
+    <parent>
+        <artifactId>parent</artifactId>
+        <groupId>org.wso2.developerstudio.codenvy</groupId>
+        <version>3.0.0-M14</version>
+    </parent>
+    <groupId>org.wso2.developerstudio.codenvy.project</groupId>
+    <artifactId>type-extensions</artifactId>
     <packaging>pom</packaging>
-
     <modules>
-        <module>core</module>
-        <module>project-type-exts</module>
-    </modules> 
- 
+        <module>axis2-service</module>
+    </modules>
 </project>

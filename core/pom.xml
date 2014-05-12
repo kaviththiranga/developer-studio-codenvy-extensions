@@ -2,20 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>codenvy-ide-parent</artifactId>
-        <groupId>com.codenvy.ide</groupId>
+        <artifactId>parent</artifactId>
+        <groupId>org.wso2.developerstudio.codenvy</groupId>
         <version>3.0.0-M14</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
     <groupId>org.wso2.developerstudio.codenvy</groupId>
     <artifactId>core-extension</artifactId>
     <packaging>jar</packaging>
-    <name>Codenvy Extension :: Wso2 Developer Studio Core</name>
+    <name>Codenvy Extension :: Wso2 Developer Studio - Core</name>
     <dependencies>
         <dependency>
             <groupId>com.codenvy.ide</groupId>
             <artifactId>codenvy-ide-api</artifactId>
-            <version>${parent.version}</version>
+            <version>3.0.0-M14</version>
         </dependency>
         <dependency>
             <groupId>com.google.gwt.inject</groupId>
@@ -51,7 +50,8 @@
                         <goals>
                             <goal>single</goal>
                         </goals>
-                        <configuration>helloworld
+                        <configuration>
+                            helloworld
                             <appendAssemblyId>false</appendAssemblyId>
                             <updateOnly>false</updateOnly>
                             <descriptors>
