@@ -39,5 +39,6 @@ public class CoreExtension
         //add demoAction to demoGroup
         actionManager.registerAction("about", action);
         demoGroup.add(action);
+
     }
 }
