@@ -8,6 +8,7 @@ public interface Constants {
     final String AXI2_SERVICE_ID              = "Axis2 service";
     final String AXI2_SERVICE_NAME            = "Axis2";
     final String AXI2_CATEGORY                = "Axis2";
+    final String JAVA_CATEGORY                = "Java";
 
     // project attribute names
     final String LANGUAGE                     = "language";

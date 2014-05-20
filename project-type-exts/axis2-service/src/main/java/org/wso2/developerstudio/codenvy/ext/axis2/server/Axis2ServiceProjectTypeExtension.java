@@ -30,7 +30,7 @@ public class Axis2ServiceProjectTypeExtension implements ProjectTypeExtension {
 
     @Override
     public ProjectType getProjectType() {
-        return new ProjectType(Constants.AXI2_SERVICE_ID, Constants.AXI2_SERVICE_NAME, Constants.AXI2_CATEGORY);
+        return new ProjectType(Constants.AXI2_SERVICE_ID, Constants.AXI2_SERVICE_NAME, Constants.JAVA_CATEGORY);
     }
 
     @Override

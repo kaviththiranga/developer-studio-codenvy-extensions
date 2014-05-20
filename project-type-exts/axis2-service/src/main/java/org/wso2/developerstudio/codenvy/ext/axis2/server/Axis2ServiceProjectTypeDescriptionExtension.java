@@ -27,7 +27,7 @@ public class Axis2ServiceProjectTypeDescriptionExtension implements ProjectTypeD
     @Override
     public List<ProjectType> getProjectTypes() {
         final List<ProjectType> list = new ArrayList<>(1);
-        list.add(new ProjectType(Constants.AXI2_SERVICE_ID, Constants.AXI2_SERVICE_NAME, Constants.AXI2_CATEGORY));
+        list.add(new ProjectType(Constants.AXI2_SERVICE_ID, Constants.AXI2_SERVICE_NAME, Constants.JAVA_CATEGORY));
         return list;
     }
 
