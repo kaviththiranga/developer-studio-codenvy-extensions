@@ -1,4 +1,4 @@
-package org.wso2.developerstudio.codenvy.project.type.ext.axis2;
+package org.wso2.developerstudio.codenvy.ext.axis2.client;
 
 import com.codenvy.ide.api.extension.Extension;
 import com.google.inject.Singleton;

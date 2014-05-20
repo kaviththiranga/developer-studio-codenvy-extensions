@@ -1,12 +1,11 @@
-package org.wso2.developerstudio.codenvy.project.type.ext.axis2.projectmodel;
+package org.wso2.developerstudio.codenvy.ext.axis2.server;
 
 import com.codenvy.api.project.server.ProjectTypeDescriptionRegistry;
 import com.codenvy.api.project.server.ProjectTypeExtension;
 import com.codenvy.api.project.shared.Attribute;
 import com.codenvy.api.project.shared.ProjectTemplateDescription;
 import com.codenvy.api.project.shared.ProjectType;
-
-import com.codenvy.ide.ext.java.shared.Constants;
+import org.wso2.developerstudio.codenvy.ext.axis2.shared.Constants;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -31,7 +30,7 @@ public class Axis2ServiceProjectTypeExtension implements ProjectTypeExtension {
 
     @Override
     public ProjectType getProjectType() {
-        return new ProjectType("axis2", "axis2", Constants.JAVA_CATEGORY);
+        return new ProjectType(Constants.AXI2_SERVICE_ID, Constants.AXI2_SERVICE_NAME, Constants.AXI2_CATEGORY);
     }
 
     @Override
